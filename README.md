@@ -25,5 +25,39 @@ cased10.py:
 
 leeter.py:
 
+####Cracked passwords:
+
+#####Linux/Unix:
+
+$LM$73cc52eafe696961:LATINI
+
+$LM$fc738eb8b0e67616:TOOLBOX
+
+$LM$1164ce4aaefc17ff:MICHELP
+
+$LM$97a9eecee4b5f330:AKSS
+
+$LM$f9c31a96c4c65b1e:X8SJKRO
+
+Command Used: john --format=LM hashes_lanman.txt
+
+F9C31A96C4C65B1E97A9EECEE4B5F330:X8SJKROAKSS
+
+FC738EB8B0E67616AAD3B435B51404EE:TOOLBOX
+
+1164CE4AAEFC17FF73CC52EAFE696961:MICHELPLATINI
+
+Note that AAD3B435B51404EE is the hash of an all null 7 character half.
+
+#####Windows/LANMAN:
+
+$NT$f3f69a51fc702f24ee994a3a98fca9b0:toolbox
+
+$NT$4b5628becfd9ad0bc1a5e797ff3ca686:x8SJkrOAksS
+
+$NT$d94631ab52f49e06830bd207da175d32:MichelPlatini
+
+
+
 
 For further information please look at the report document in the repo.
