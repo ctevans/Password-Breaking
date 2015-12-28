@@ -6,7 +6,7 @@ Tools: John the Ripper http://www.openwall.com/john/
 ##Overview:
 Given Unix/Linux and Windows/LANMAN password hashes, the goal is to crack the original passwords used!
 (Note: With heavy computational power restrictions, we couldn't use something like a server to do this!)
-
+ 
 
 ####Ideas:
 Spread out across multiple python files, we will be taking a massive dictionary of words and we will be churning through the entire thing and for each possible word we will be making numerous modifications to the word and attempt to find a match to the hash we were given.
